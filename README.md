@@ -112,7 +112,11 @@ billingApp/
 │
 └── README.md            # Project documentation
 ```
-
+### Usage
+- Login with Google: Users can log in using their Google accounts via OAuth.
+- View Usage Details: After logging in, users can see their SaaS usage metrics (e.g., API calls, storage used).
+- View Billing Information: Users can also see their billing cycle and total usage costs.
+- Generate Invoice: A button on the dashboard allows users to generate an invoice, which triggers the Zapier webhook.
 
 
 
