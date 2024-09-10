@@ -88,6 +88,9 @@ mongod
 #### Go to Zapier.com and create a new Zap:
 - Set the trigger as Webhook (Catch Hook) and copy the Webhook URL.
 - Use Gmail (or any other service) as an action to send the invoice.
+
+![Screenshot 2024-09-11 011951](https://github.com/user-attachments/assets/324ff140-eafc-461b-aae7-63d965f4e645)
+
 #### Use the Webhook URL in the ZAPIER_WEBHOOK_URL environment variable in the backend .env file.
 
 
@@ -95,7 +98,7 @@ mongod
 
 
 
-![Screenshot 2024-09-11 011951](https://github.com/user-attachments/assets/324ff140-eafc-461b-aae7-63d965f4e645)
+
 
 
 
