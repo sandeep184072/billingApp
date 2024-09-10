@@ -33,14 +33,32 @@ git clone https://github.com/your-repository/billingApp.git
 cd billingApp
 ```
 ### 2. Backend Setup
-- 1.Navigate to the backend directory:
+- Navigate to the backend directory:
 ```bash 
 cd backend
 ```
-- 2.Install the dependencies:
+- Install the dependencies:
 ```bash
 npm install
 ```
+- Create a .env file to store your environment variables:
+```bash
+touch .env
+```
+- Add the following environment variables to the .env file:
+```bash
+GOOGLE_CLIENT_ID=your-google-client-id
+GOOGLE_CLIENT_SECRET=your-google-client-secret
+MONGO_URI=mongodb://localhost:27017/tensorgo
+ZAPIER_WEBHOOK_URL=your-zapier-webhook-url
+SESSION_SECRET=your-session-secret
+```
+-Start the backend server:
+```bash
+node server.js
+```
+The backend server will run at http://localhost:5000.
+
 
 
 
