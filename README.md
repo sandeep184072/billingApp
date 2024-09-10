@@ -84,6 +84,8 @@ The frontend will run at http://localhost:3000.
 mongod
 ```
 - The backend will automatically connect to the local MongoDB instance and create the necessary collections (Usage and Billing).
+
+
 ### 5. Zapier Integration
 #### Go to Zapier.com and create a new Zap:
 - Set the trigger as Webhook (Catch Hook) and copy the Webhook URL.
@@ -112,11 +114,23 @@ billingApp/
 │
 └── README.md            # Project documentation
 ```
+
+
 ### Usage
 - Login with Google: Users can log in using their Google accounts via OAuth.
 - View Usage Details: After logging in, users can see their SaaS usage metrics (e.g., API calls, storage used).
 - View Billing Information: Users can also see their billing cycle and total usage costs.
 - Generate Invoice: A button on the dashboard allows users to generate an invoice, which triggers the Zapier webhook.
+
+### How It Works
+- User Authentication: Google OAuth is used to authenticate users. Upon successful login, the user is redirected to the dashboard.
+- Fetch Usage and Billing Data: The backend API retrieves usage and billing data from MongoDB.
+- Invoice Generation: When the user clicks "Generate Invoice," a POST request is sent to Zapier to automate the billing process.
+- Zapier Workflow: Zapier catches the webhook data and sends an invoice via Gmail (or another service).
+
+### Contributing
+Feel free to fork this repository, make changes, and submit a pull request. Contributions are welcome!
+
 
 
 
