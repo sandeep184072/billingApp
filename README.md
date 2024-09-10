@@ -53,7 +53,7 @@ MONGO_URI=mongodb://localhost:27017/tensorgo
 ZAPIER_WEBHOOK_URL=your-zapier-webhook-url
 SESSION_SECRET=your-session-secret
 ```
--Start the backend server:
+- Start the backend server:
 ```bash
 node server.js
 ```
