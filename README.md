@@ -31,6 +31,20 @@ Before you begin, ensure you have the following installed:
 ```bash
 git clone https://github.com/your-repository/billingApp.git
 cd billingApp
+```
+### 2. Backend Setup
+- 1.Navigate to the backend directory:
+```bash 
+cd backend
+```
+- 2.Install the dependencies:
+```bash
+npm install
+```
+
+
+
+
 
 
 
