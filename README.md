@@ -31,3 +31,10 @@ Before you begin, ensure you have the following installed:
 ```bash
 git clone https://github.com/your-repository/billingApp.git
 cd billingApp
+
+## 2. Backend Setup
+
+### Navigate to the backend directory:
+```bash
+cd backend
+
