@@ -78,6 +78,17 @@ npm start
 ```
 The frontend will run at http://localhost:3000.
 
+### 4. MongoDB Setup
+- Ensure that MongoDB is running on your local machine:
+```bash
+mongod
+```
+- The backend will automatically connect to the local MongoDB instance and create the necessary collections (Usage and Billing).
+### 5. Zapier Integration
+#### Go to Zapier.com and create a new Zap:
+- Set the trigger as Webhook (Catch Hook) and copy the Webhook URL.
+- Use Gmail (or any other service) as an action to send the invoice.
+#### Use the Webhook URL in the ZAPIER_WEBHOOK_URL environment variable in the backend .env file.
 
 
 
