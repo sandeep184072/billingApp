@@ -93,6 +93,26 @@ mongod
 
 #### Use the Webhook URL in the ZAPIER_WEBHOOK_URL environment variable in the backend .env file.
 
+### Project Structure
+```bash
+billingApp/
+│
+├── backend/             # Backend (Node.js) code
+│   ├── models/          # Mongoose models for Usage and Billing
+│   ├── server.js        # Express server and API endpoints
+│   ├── .env             # Environment variables (ignored by git)
+│   └── package.json     # Backend dependencies
+│
+├── frontend/            # Frontend (React) code
+│   ├── src/             
+│   │   ├── App.js       # Main React component with Google OAuth login
+│   │   ├── UsageDetails.js  # Component for displaying usage details
+│   │   └── BillingDetails.js # Component for displaying billing information
+│   └── package.json     # Frontend dependencies
+│
+└── README.md            # Project documentation
+```
+
 
 
 
