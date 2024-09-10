@@ -58,6 +58,25 @@ SESSION_SECRET=your-session-secret
 node server.js
 ```
 The backend server will run at http://localhost:5000.
+### Frontend Setup
+- Navigate to the frontend directory:
+```bash
+cd ../frontend
+```
+- Install the dependencies:
+```bash
+Install the dependencies:
+```
+- Set up Google OAuth by adding your Client ID in the React frontend. Edit src/App.js and add your Google Client ID:
+```bash
+const clientId = "your-google-client-id";
+```
+- Start the React frontend:
+```bash
+npm start
+
+```
+The frontend will run at http://localhost:3000.
 
 
 
