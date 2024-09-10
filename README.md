@@ -71,6 +71,9 @@ Install the dependencies:
 ```bash
 const clientId = "your-google-client-id";
 ```
+- Example image for reference 
+![Screenshot 2024-09-11 013516](https://github.com/user-attachments/assets/6ec9f6f6-9218-4b30-80f2-0c184e1db51a)
+
 - Start the React frontend:
 ```bash
 npm start
